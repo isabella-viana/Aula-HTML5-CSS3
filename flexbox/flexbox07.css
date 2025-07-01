@@ -1,0 +1,46 @@
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.conteiner{
+    display: flex;
+    background-color: aqua;
+   flex-flow: row wrap;
+   height: 400px;
+   align-content: space-evenly;
+
+}
+
+.item{
+flex: auto;
+    background-color: blue;
+    border: 1px solid black;
+      padding: 40px;
+      text-align: center;
+}
+
+div#i1{
+    order: 3;
+
+}
+
+div#i2{
+    order: 9;
+}
+div#i3{
+    order: -3;
+}div#i4{
+    order: 2;
+}div#i5{
+    order: 5;
+}
+div#i6{
+    order: -6;
+}
+div#i7{
+    order: 11;
+}

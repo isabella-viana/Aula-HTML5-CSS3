@@ -1,0 +1,28 @@
+    *{
+    margin: 0;
+
+}
+
+body, html{
+    height: 100vw;
+    width: 100vw;
+}
+
+.conteiner{
+    display: flex;
+    background-color: aqua;
+
+     flex-flow: column nowrap; 
+     
+
+}
+
+.item{
+flex: auto;
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
